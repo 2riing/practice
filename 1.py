@@ -1,8 +1,9 @@
+num_list = list(map(str, range(10)))
 
 
+num_list = list()
+for i in range(0,10):
+    num_list.append(i)
 
- = int(input())
 
-
-while n >0:
-    print(num[1])
+print(num_list)
