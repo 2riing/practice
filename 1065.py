@@ -7,7 +7,6 @@ print(N)
 def arith_sequence():
 
 
-s
 
 
 
