@@ -1,9 +1,4 @@
-num_list = list(map(str, range(10)))
+N = int(input())
+arr = [[0]*N] + [list(map(int,input().split())) for _ in range(N)] + [[0]]*N + [0]*N
 
-
-num_list = list()
-for i in range(0,10):
-    num_list.append(i)
-
-
-print(num_list)
+print(arr)
