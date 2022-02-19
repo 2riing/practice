@@ -1,5 +1,5 @@
 import sys
 sys.stdin = open('input.txt')
 
-num = int(input())
-print('#'*num)
+a = input()
+print(ord(a))
