@@ -1,6 +1,6 @@
 
 
-charge = 1260
+charge = 1683
 cnt = 0
 coins = [500,100,50,10]
 

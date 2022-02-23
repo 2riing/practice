@@ -1,10 +1,7 @@
 
 
 import sys
+sys.stdin = open('input.txt')
 
-T = int(sys.stdin.readline())
-
-total = 0 
-for i in range(T):
-    A, B = map(int, sys.stdin.readline().split())
-    print(A + B) 
+A = list(map(str, sys.stdin.readline()))
+print(A)
