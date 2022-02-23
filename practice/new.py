@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin =  open('input.txt')
 
 N, K = map(int, input().split()) # N : 학생 수  K : 최대 인원 수
 student = [list(map(int, input().split())) for _ in range(N)] # S:성별 Y: 학년
@@ -8,7 +8,7 @@ year_0 = [0]*7
 year_1 = [0]*7
 
 for i in range(N):
-    if student[i][0] == 0: # 성별이 0인 여학생인 경우
+    if student[i][0] ==0: # 성별이 0인 여학생인 경우
         year_0[student[i][1]] += 1
     else: # 성별 남학생
         year_1[student[i][1]] += 1
