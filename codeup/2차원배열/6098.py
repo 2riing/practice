@@ -25,6 +25,7 @@ def Go(row, col):
         home[row][col] = 9
         return
 Go(1,1)
+
 for i in range(len(home)):
     print(*home[i])
 
