@@ -14,5 +14,4 @@ for a in arr:
     elif a == 0:
         stack.pop()
 
-
 print(sum(stack))
