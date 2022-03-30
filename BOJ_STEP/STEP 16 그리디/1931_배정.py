@@ -10,7 +10,6 @@ times = [list(map(int, input().split())) for _ in range(N)]
 cnt = 1
 EndTime = 0
 
-times = sorted(times, key=lambda time: time[0]) # 시작시간 기준 정렬
 times = sorted(times, key=lambda time: time[1])
 
 for i in range(len(times)):
